@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h1>login</h1>
+	<img src="${pageContext.request.contextPath}/upload/image.png"><!-- d:/app/upload : 외부정적 저장소맵핑 -->
 	<form method="post" action="${pageContext.request.contextPath}/login">
 		<table border="1">
 			<tr>
